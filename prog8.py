@@ -15,6 +15,12 @@ def find_roots(a, b, c):
         root2 = f"(-{b}+{round(d**(1/2), 2)}j)/{2*a}"
         return [root1, root2]
     
-a, b, c = 1, 9, 2
-roots = find_roots(a, b, c)
-print(roots)
+a1, b1, c1= 1, 9, 2
+a2, b2, c2 = 1, 4, 4
+a3, b3, c3 = 1, 2, 2
+roots1 = find_roots(a1, b1, c1)
+roots2 = find_roots(a2, b2, c2)
+roots3 = find_roots(a3, b3, c3)
+print(roots1)
+print(roots2)
+print(roots3)

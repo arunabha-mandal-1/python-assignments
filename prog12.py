@@ -19,6 +19,10 @@ def is_prime(n):
     print(f"{n} is a prime number.")
 
 
-a = -13
+a = 13
 is_odd_even(a)
 is_prime(a)
+
+b = 10
+is_odd_even(b)
+is_prime(b)
