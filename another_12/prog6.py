@@ -36,4 +36,6 @@ def print_pattern_2(n):
                 print("*", end=" ")
         print()
 
+print_pattern_1(5)
+print()
 print_pattern_2(5)
